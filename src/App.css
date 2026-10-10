@@ -315,6 +315,18 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 768px) {
+  .adventure-nav {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
   .crew-vessel-grid { grid-template-columns: 1fr; }
   .form-split { grid-template-columns: 1fr; }
   .partners-grid { grid-template-columns: 1fr; }
